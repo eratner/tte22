@@ -20,7 +20,7 @@ def get_vehicle_marker(x, y, angle, frame_id):
     msg.ns = 'vehicle'
     msg.pose.position.x = x
     msg.pose.position.y = y
-    msg.pose.position.z = 0.05
+    msg.pose.position.z = 0.08
 
     orien = quaternion_from_euler(
         0.0,    # Roll (radians).
