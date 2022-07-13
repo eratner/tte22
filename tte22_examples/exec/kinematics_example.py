@@ -2,6 +2,7 @@
 
 # NOTE: Must run `chmod +x kinematics_example.py` in order to make executable before
 # running via `rosrun tte22_examples kinematics_example.py`
+# To run this: roslaunch tte22_examples kinematics_example.launch
 
 import rospy
 import sys

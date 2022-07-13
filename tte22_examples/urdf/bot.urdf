@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
+
+<!-- 1) cd into the directory containing bot.urdf -->
+<!-- 2) roslaunch urdf_tutorial display.launch model:=bot.urdf -->
+
 <robot name="bot">
 
   <!-- Define colors to be used later (for visualization ONLY). -->
