@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Load the robot URDF. -->
+  <param name="robot_description"
+         textfile="$(find tte22_examples)/urdf/bot.urdf" />
+
+  <!-- Run the simulator node. -->
+  <node name="kinematics_example" pkg="tte22_examples" type="kinematics_example.py" output="screen" />
+</launch>
